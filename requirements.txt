@@ -1,0 +1,10 @@
+Flask==0.11
+itsdangerous==0.24
+Jinja2==2.9
+MarkupSafe==0.23
+Werkzeug==0.12
+Wheel==0.30
+Flask-script==0.6.7
+Flask-sqlalchemy==3.0
+PyMySQL==
+Flask-Migrate==
