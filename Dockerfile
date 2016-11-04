@@ -5,7 +5,7 @@ MAINTAINER Amos Tsai <amos.tsai@gmail.com>
 RUN \
 	apt-get update && \
 	apt-get -y upgrade && \
-	apt-get --no-install-recommends install -y python-pip python-dev && \
+	apt-get --no-install-recommends install -y python-pip python-dev setuptools && \
 	pip install --upgrade pip
 
 
