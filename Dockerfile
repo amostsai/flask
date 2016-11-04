@@ -20,4 +20,4 @@ RUN	pip install -r /var/www/app/requirements.txt && \
 
 EXPOSE 80
 
-CMD cd /var/www/app/
+WORKDIR cd /var/www/app/
