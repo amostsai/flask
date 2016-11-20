@@ -9,7 +9,7 @@ RUN \
 	pip install --upgrade pip
 
 
-ADD app/ /var/www/app/
+ADD app/ /app/
 
 RUN	pip install -r /var/www/app/requirements.txt && \
 
@@ -20,4 +20,4 @@ RUN	pip install -r /var/www/app/requirements.txt && \
 
 EXPOSE 80
 
-WORKDIR /var/www/app/
+WORKDIR /app/
