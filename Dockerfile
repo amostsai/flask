@@ -11,7 +11,7 @@ RUN \
 
 ADD app/ /app/
 
-RUN	pip install -r /var/www/app/requirements.txt && \
+RUN	pip install -r /app/requirements.txt && \
 
 	# Clean up
 	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
