@@ -5,7 +5,7 @@ MAINTAINER Amos Tsai <amos.tsai@gmail.com>
 RUN \
 	apt-get update && \
 	apt-get -y upgrade && \
-	apt-get --no-install-recommends install -y python-pip python-dev python-setuptools && \
+	apt-get --no-install-recommends install -y python-pip python-dev python-setuptools libmysqlclient-dev && \
 	pip install --upgrade pip
 
 
