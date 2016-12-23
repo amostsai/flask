@@ -6,6 +6,7 @@ Werkzeug==0.11.11
 Wheel==0.29.0
 Flask-script==0.6.7
 Flask-sqlalchemy==2.1
+SQLAlchemy>=1.1.4
 PyMySQL==0.7.9
 Flask-Migrate==2.0.0
 flask-wtf==0.13.1
