@@ -10,4 +10,5 @@ SQLAlchemy>=1.1.4
 PyMySQL==0.7.9
 Flask-Migrate==2.0.0
 flask-wtf==0.13.1
+flask-bcrypt>=0.7.1
 uwsgi==2.0.14
